@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css" />
+
     <link rel="stylesheet" href="css/fonts.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <header class="header-bg">
       <img src="img/logo.svg" alt="" />
+      <div class="bar">
+        <i class="fa-solid fa-bars"></i>
+      </div>
       <div class="first-header-bg">
         <a href="#">home</a>
         <a href="#">about us</a>
@@ -73,29 +78,31 @@
         <div class="image-wraper">
           <div class="first-image">
             <div class="first-image-text">
-              <h6>Skyskuy Tower</h6>
+              <h5>Skyskuy Tower</h5>
               <h6>Renovation & Architecture</h6>
             </div>
           </div>
           <div class="second-image">
-            <div class="first-image-text">
-              <h6>The Fallingwater House</h6>
+            <div class="second-image-text">
+              <h5>The Fallingwater House</h5>
               <h6>Building & Interior</h6>
             </div>
           </div>
           <div class="third-image">
-            <div class="first-image-text">
-              <h6>The Orange Apartemen</h6>
+            <div class="third-image-text">
+              <h5>The Orange Apartemen</h5>
               <h6>Construction & Interior</h6>
             </div>
           </div>
         </div>
-        <div class="explore-div">
-          <h6>Explore All Projects</h6>
-          <i class="fa-solid fa-circle-arrow-right"></i>
+        <div class="explore-box">
+          <div class="explore-div">
+            <h6>Explore All Projects</h6>
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </div>
         </div>
       </section>
-      <section class="third-section">
+       <section class="third-section">
         <div class="box-wraper">
           <h5>What Our Client Says</h5>
           <p>
@@ -108,7 +115,7 @@
           <h6>CEO, Lexmark</h6>
         </div>
       </section>
-      <section class="fourth-section">
+       <section class="fourth-section"> 
         <div class="building">
           <h6>Leading Way In Building & Civil Construction</h6>
         </div>
@@ -135,7 +142,7 @@
                   />
                   <label for="email"> </label>
                   <input
-                    class="input-style"
+                    class="input-style email"
                     type="email"
                     id="email"
                     name="useremail"
@@ -161,13 +168,13 @@
                   </select>
                 </div>
                 <label for="review"></label>
-                <input
+                <textarea
                   class="textarea"
-                  type="textarea"
-                  id="review"
                   name="review"
+                  id="review"
                   placeholder="Additional Details!"
-                />
+                ></textarea>
+
                 <button class="button" type="submit" value="Submit">
                   Submit Request
                 </button>
@@ -207,9 +214,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>  
     </main>
-    <footer class="footer-bg">
+    <footer class="footer-bg"> 
       <div class="main-footer">
         <div class="first-footer-box">
           <svg
@@ -257,7 +264,6 @@
               <i class="fa-brands fa-square-instagram"></i>
               <i class="fa-brands fa-twitter"></i>
             </div>
-           
           </div>
           <div class="office-box">
             <h6>Office</h6>
@@ -274,7 +280,7 @@
             </div>
           </div>
           <div class="links">
-            <h5>link</h5>
+            <h5>link: </h5>
             <a href="#">home</a>
             <a href="#">About Us</a>
             <a href="#">Service</a>
